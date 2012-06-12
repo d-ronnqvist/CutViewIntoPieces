@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D3DE8615872A5B00D7150E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D3DE8515872A5B00D7150E /* UIKit.framework */; };
+		63D3DE8815872A5B00D7150E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D3DE8715872A5B00D7150E /* Foundation.framework */; };
+		63D3DE8A15872A5B00D7150E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D3DE8915872A5B00D7150E /* CoreGraphics.framework */; };
+		63D3DE9015872A5B00D7150E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63D3DE8E15872A5B00D7150E /* InfoPlist.strings */; };
+		63D3DE9215872A5B00D7150E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3DE9115872A5B00D7150E /* main.m */; };
+		63D3DE9615872A5B00D7150E /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3DE9515872A5B00D7150E /* DRAppDelegate.m */; };
+		63D3DE9915872A5B00D7150E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D3DE9715872A5B00D7150E /* MainStoryboard.storyboard */; };
+		63D3DE9C15872A5B00D7150E /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D3DE9B15872A5B00D7150E /* DRViewController.m */; };
+		63D3DEA315872A7800D7150E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D3DEA215872A7800D7150E /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63D3DE8115872A5B00D7150E /* CutViewIntoPieces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutViewIntoPieces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D3DE8515872A5B00D7150E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63D3DE8715872A5B00D7150E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63D3DE8915872A5B00D7150E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63D3DE8D15872A5B00D7150E /* CutViewIntoPieces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CutViewIntoPieces-Info.plist"; sourceTree = "<group>"; };
+		63D3DE8F15872A5B00D7150E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63D3DE9115872A5B00D7150E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D3DE9315872A5B00D7150E /* CutViewIntoPieces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CutViewIntoPieces-Prefix.pch"; sourceTree = "<group>"; };
+		63D3DE9415872A5B00D7150E /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		63D3DE9515872A5B00D7150E /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		63D3DE9815872A5B00D7150E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		63D3DE9A15872A5B00D7150E /* DRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		63D3DE9B15872A5B00D7150E /* DRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		63D3DEA215872A7800D7150E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D3DE7E15872A5B00D7150E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3DEA315872A7800D7150E /* QuartzCore.framework in Frameworks */,
+				63D3DE8615872A5B00D7150E /* UIKit.framework in Frameworks */,
+				63D3DE8815872A5B00D7150E /* Foundation.framework in Frameworks */,
+				63D3DE8A15872A5B00D7150E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D3DE7615872A5B00D7150E = {
+			isa = PBXGroup;
+			children = (
+				63D3DEA215872A7800D7150E /* QuartzCore.framework */,
+				63D3DE8B15872A5B00D7150E /* CutViewIntoPieces */,
+				63D3DE8415872A5B00D7150E /* Frameworks */,
+				63D3DE8215872A5B00D7150E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D3DE8215872A5B00D7150E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D3DE8115872A5B00D7150E /* CutViewIntoPieces.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D3DE8415872A5B00D7150E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D3DE8515872A5B00D7150E /* UIKit.framework */,
+				63D3DE8715872A5B00D7150E /* Foundation.framework */,
+				63D3DE8915872A5B00D7150E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63D3DE8B15872A5B00D7150E /* CutViewIntoPieces */ = {
+			isa = PBXGroup;
+			children = (
+				63D3DE9415872A5B00D7150E /* DRAppDelegate.h */,
+				63D3DE9515872A5B00D7150E /* DRAppDelegate.m */,
+				63D3DE9715872A5B00D7150E /* MainStoryboard.storyboard */,
+				63D3DE9A15872A5B00D7150E /* DRViewController.h */,
+				63D3DE9B15872A5B00D7150E /* DRViewController.m */,
+				63D3DE8C15872A5B00D7150E /* Supporting Files */,
+			);
+			path = CutViewIntoPieces;
+			sourceTree = "<group>";
+		};
+		63D3DE8C15872A5B00D7150E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D3DE8D15872A5B00D7150E /* CutViewIntoPieces-Info.plist */,
+				63D3DE8E15872A5B00D7150E /* InfoPlist.strings */,
+				63D3DE9115872A5B00D7150E /* main.m */,
+				63D3DE9315872A5B00D7150E /* CutViewIntoPieces-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D3DE8015872A5B00D7150E /* CutViewIntoPieces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D3DE9F15872A5B00D7150E /* Build configuration list for PBXNativeTarget "CutViewIntoPieces" */;
+			buildPhases = (
+				63D3DE7D15872A5B00D7150E /* Sources */,
+				63D3DE7E15872A5B00D7150E /* Frameworks */,
+				63D3DE7F15872A5B00D7150E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutViewIntoPieces;
+			productName = CutViewIntoPieces;
+			productReference = 63D3DE8115872A5B00D7150E /* CutViewIntoPieces.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D3DE7815872A5B00D7150E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 63D3DE7B15872A5B00D7150E /* Build configuration list for PBXProject "CutViewIntoPieces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63D3DE7615872A5B00D7150E;
+			productRefGroup = 63D3DE8215872A5B00D7150E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D3DE8015872A5B00D7150E /* CutViewIntoPieces */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D3DE7F15872A5B00D7150E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3DE9015872A5B00D7150E /* InfoPlist.strings in Resources */,
+				63D3DE9915872A5B00D7150E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D3DE7D15872A5B00D7150E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D3DE9215872A5B00D7150E /* main.m in Sources */,
+				63D3DE9615872A5B00D7150E /* DRAppDelegate.m in Sources */,
+				63D3DE9C15872A5B00D7150E /* DRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63D3DE8E15872A5B00D7150E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D3DE8F15872A5B00D7150E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63D3DE9715872A5B00D7150E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D3DE9815872A5B00D7150E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D3DE9D15872A5B00D7150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63D3DE9E15872A5B00D7150E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D3DEA015872A5B00D7150E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CutViewIntoPieces/CutViewIntoPieces-Prefix.pch";
+				INFOPLIST_FILE = "CutViewIntoPieces/CutViewIntoPieces-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63D3DEA115872A5B00D7150E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CutViewIntoPieces/CutViewIntoPieces-Prefix.pch";
+				INFOPLIST_FILE = "CutViewIntoPieces/CutViewIntoPieces-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D3DE7B15872A5B00D7150E /* Build configuration list for PBXProject "CutViewIntoPieces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3DE9D15872A5B00D7150E /* Debug */,
+				63D3DE9E15872A5B00D7150E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D3DE9F15872A5B00D7150E /* Build configuration list for PBXNativeTarget "CutViewIntoPieces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D3DEA015872A5B00D7150E /* Debug */,
+				63D3DEA115872A5B00D7150E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D3DE7815872A5B00D7150E /* Project object */;
+}
